@@ -12,4 +12,4 @@ class BlueHtml extends HTMLElement{
     }
 }
 
-customElements.define("x-blue", Blue.html);
+customElements.define("x-blue", BlueHtml);
