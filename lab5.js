@@ -6,10 +6,10 @@ class CenterHtml extends HTMLElement{
 
 customElements.define("x-center", CenterHtml);
 
-class BlueHtml extends HTMLElement{
+class OrangeHtml extends HTMLElement{
     connectedCallback(){
-        this.innerHTML = `<div style="color:blue">${this.innerHTML}</div>`;
+        this.innerHTML = `<div style="color:orange">${this.innerHTML}</div>`;
     }
 }
 
-customElements.define("x-blue", BlueHtml);
+customElements.define("x-orange", OrangeHtml);
